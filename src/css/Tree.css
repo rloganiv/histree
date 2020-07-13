@@ -1,0 +1,23 @@
+.Tree {
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.Tree svg .link--active {
+    stroke: #000 !important;
+    stroke-width: 1.5 px;
+}
+
+.Tree svg .link-extension--active {
+    stroke-opacity: .6;
+}
+
+
+.Tree svg .label--active {
+    font-weight: bold;
+}
